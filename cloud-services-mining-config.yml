@@ -30,3 +30,11 @@ azure:
       cloud: GermanyCloud
     outputs:
       - resultPath: ./germany-cloud-ips.txt
+
+o365:
+  - name: mine O365
+    miner: O365Miner
+    args:
+      instance: Worldwide
+    outputs:
+      - resultPath: ./o365-ips.txt
